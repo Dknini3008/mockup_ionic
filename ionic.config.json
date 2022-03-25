@@ -1,0 +1,7 @@
+{
+  "name": "Mockup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
