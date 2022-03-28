@@ -9,4 +9,10 @@ export class HomePage {
 
   constructor() {}
 
+  out = 'Sorry, this is not working :('
+
+  notWorking(){
+    alert(this.out);
+  }
+
 }

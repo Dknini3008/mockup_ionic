@@ -1,0 +1,28 @@
+app-tab-bar.bar{
+    margin-top: 100%;
+}
+ion-toolbar{
+    height: 80px;
+}
+ion-icon.menu{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 46px;
+    width: 46px; 
+}
+ion-icon.search{
+    margin-left: 80%;
+    align-content: right;
+    margin-top: 2%;
+    height: 46px;
+    width: 46px; 
+}
+ion-icon.ellipsis{
+    margin-top: 2%;
+    height: 46px;
+    width: 46px; 
+}
+.chart-container{
+    position: relative;
+    margin: auto;
+}

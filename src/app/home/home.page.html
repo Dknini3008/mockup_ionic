@@ -1,20 +1,12 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="background" [fullscreen]="true">
+    <h1 class="welcome">WELCOME</h1>
+    <ion-img class="logo" src="../../assets/Images/dk.png"></ion-img>
+      <ion-input class="form" placeholder="Username">
+        <ion-icon class="form" name="person-circle-outline"></ion-icon>
+      </ion-input>
+      <ion-input class="form" placeholder="Password">
+        <ion-icon class="form" name="lock-closed-outline"></ion-icon>
+      </ion-input>
+      <ion-button [routerLink]="['/tabs/friends']" class="login" color="primary" >Login</ion-button>
+    <h2 (click)="notWorking()" class="forgot">Forgot password?</h2>
 </ion-content>

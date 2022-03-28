@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-icon (click)="notWorking()" class="menu" name="menu-outline"></ion-icon>
+    <ion-icon (click)="notWorking()" class="search" name="search-outline"></ion-icon>
+    <ion-icon (click)="notWorking()" class="ellipsis" name="ellipsis-vertical-outline"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-card>
+    <img src="../../assets/Images/paisaje.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Finn "the human"</ion-card-subtitle>
+      <ion-card-title>Life</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Él es hijo de Martin Mertens y Minerva Campbell, y nació en las islas, pero tras una serie de hechos termino llegando a la Tierra de Ooo en donde fue adoptado por Joshua y Margaret. Durante mucho tiempo se creyó que Finn era el último humano, pero en ''Islas'' eso se erradicó por completo.
+    </ion-card-content>
+  </ion-card>
+  <ion-button [routerLink]="['/tabs/friends']" class="login" color="primary" >Go back with your friends</ion-button>
+</ion-content>
+
